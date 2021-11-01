@@ -1,0 +1,70 @@
+body{
+    background-image: url("https://bestanimations.com/media/fireworks/1175377686ba-awesome-colorful-fireworks-animated-gif-image-s.gif");
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: default;
+}
+.about{
+    background: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    animation: lighting infinite 10s;
+    box-shadow: 0 0 0.80em;
+    margin-left: 800px;
+    margin-top: 200px;
+    border: 3px solid red; 
+    transform: rotate(-6deg);
+}
+@keyframes lighting{
+    20%{border: 5px solid yellow;}
+    40%{border: 5px solid red;}
+    60%{border: 5px solid green;}
+    80%{border: 5px solid blue;}
+    100%{border: 5px solid cyan;}
+}
+h1{
+    background: yellow;
+    width: 300px;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 5px;
+    animation: lighting infinite 10s;
+    padding: 5px;
+    margin-left: 400px;
+    margin-top: 70px;
+    position: absolute;
+}
+.corona{
+    background: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    animation: lighting infinite 10s;
+    box-shadow: 0 0 0.80em;
+    margin-left: 500px;
+    margin-top: -380px;
+    position: absolute;
+    border: 3px solid red; 
+    transform: rotate(10deg);
+}
+.masha{
+    animation: lighting infinite 10s;    
+    border-radius: 6px;
+    margin-top: -70px;
+    margin-left: 250px;
+    height: 200px;
+    transform: rotate(5deg)
+}
+.greetings{
+    background: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    animation: lighting infinite 10s;
+    box-shadow: 0 0 0.80em;
+    margin-left: 60px;
+    margin-top: -130px;
+    position: absolute;
+    border: 3px solid red; 
+    transform: rotate(-15deg);
+}
